@@ -6,4 +6,6 @@ order: 4
 
 ## About Me
 
-CTFs, boxes, writeups.
+Hi, I'm **brxzyy**.
+
+I write about CTFs, writeups, and security research.
