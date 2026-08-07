@@ -3,41 +3,19 @@
 
 @import "jekyll-theme-chirpy";
 
-/* ===== OLED Black Theme ===== */
-
 html[data-mode="dark"] {
   --main-bg: #000;
   --sidebar-bg: #000;
   --topbar-bg: #000;
   --card-bg: #000;
   --mask-bg: #000;
-
-  --main-border-color: #181818;
-
-  --text-color: #fff;
-  --heading-color: #fff;
-  --label-color: #bdbdbd;
 }
 
 html[data-mode="dark"] body,
 html[data-mode="dark"] #sidebar,
 html[data-mode="dark"] #main-wrapper,
-html[data-mode="dark"] #main,
 html[data-mode="dark"] .topbar,
 html[data-mode="dark"] .post-preview,
-html[data-mode="dark"] .card,
-html[data-mode="dark"] footer {
-    background: #000 !important;
-}
-
-html[data-mode="dark"] .post-preview {
-    border: 1px solid #151515;
-}
-
-html[data-mode="dark"] .post-preview:hover {
-    background: #080808 !important;
-}
-
-html[data-mode="dark"] a {
-    color: #fff;
+html[data-mode="dark"] .card {
+  background: #000 !important;
 }
